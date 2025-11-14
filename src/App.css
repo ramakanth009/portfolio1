@@ -26,7 +26,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
@@ -41,7 +40,6 @@ body {
 a {
   color: var(--accent-color);
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
 a:hover {
@@ -66,7 +64,6 @@ a:hover {
   border-radius: 6px;
   font-weight: 500;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .btn:hover {

@@ -14,7 +14,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 
   return (
     <nav className={`navbar ${darkMode ? 'dark' : ''}`}>
-      <div className="left-section">
+      <div className="nav-left-section">
         {socialLinks.map((link, index) => (
           <a
             key={index}
@@ -28,7 +28,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           </a>
         ))}
       </div>
-      <div className="right-section">
+      <div className="nav-right-section">
         <button onClick={toggleDarkMode} className="theme-toggle" aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}>
           {darkMode ? <FaIcons.FaSun className="icon" /> : <FaIcons.FaMoon className="icon" />}
         </button>

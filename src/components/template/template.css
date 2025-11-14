@@ -64,7 +64,6 @@
   align-items: center;
   gap: 0.5rem;
   opacity: 0.7;
-  transition: opacity 0.2s ease;
 }
 
 .year-section:hover .section-indicator {
@@ -280,7 +279,6 @@
   font-size: 0.875rem;
   font-weight: 500;
   border: 1px solid #e5e7eb;
-  transition: all 0.2s ease;
 }
 
 .entry-skill:hover {

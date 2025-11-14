@@ -9,12 +9,12 @@
 
 .left-section {
   flex: 0 0 50%;
-  /* padding: 1rem 0.5rem 1rem 0.5rem; */
   position: sticky;
   top: 6rem;
   height: fit-content;
   max-height: calc(100vh - 10rem);
   overflow-y: auto;
+  padding-right: 1rem;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -26,7 +26,7 @@
 
 .right-section {
   flex: 0 0 50%;
-  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+  padding: 0 1rem 0 0;
   max-width: 50%;
   background-color: #ffffff;
   color: #1f2937;
@@ -40,14 +40,20 @@
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-content {
     flex-direction: column;
+    padding: 1rem;
   }
   
   .left-section,
   .right-section {
     max-width: 100%;
+    width: 100%;
+    padding: 1rem 0;
+    position: static;
+    height: auto;
+    max-height: none;
     border-right: none;
     border-bottom: 1px solid #e0e0e0;
     padding: 1rem 0;
