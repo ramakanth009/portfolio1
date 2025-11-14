@@ -1,0 +1,380 @@
+/* Template Component Styles */
+.template-container {
+  max-width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 1rem; /* Increased left padding to make room for the accent bar */
+  background-color: #ffffff;
+  color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  position: relative;
+}
+
+.template-container::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #D4826A, #ffffff);; /* Matching the chevron color */
+}
+
+/* Timeline Container */
+.timeline {
+  position: relative;
+  padding-left: 3rem;
+}
+
+/* Year Indicator */
+.year-section {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.year-indicator {
+  position: absolute;
+  left: -3.5rem;
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.year-chevron {
+  color: #D4826A;
+  font-size: 4rem;
+  line-height: 0.8;
+  margin-right: 0.5rem;
+  transform: translateY(-0.2em);
+}
+
+.year-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-top: 0.5rem;
+}
+
+/* Section Indicator */
+.section-indicator {
+  position: absolute;
+  left: -3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.year-section:hover .section-indicator {
+  opacity: 1;
+}
+
+.section-chevron {
+  color: #D4826A;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: -0.2rem;
+}
+
+.section-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #D4826A;
+  letter-spacing: -0.02em;
+  font-family: 'Courier New', monospace;
+}
+
+/* Experience Items */
+.entry-item {
+  border-radius: 12px;
+  padding: 2rem 0.5rem 2rem 0;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
+}
+
+.entry-header {
+  position: relative;
+  padding-right: 3rem;
+  margin-right: -2rem;
+}
+
+.entry-header::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #D4826A;
+}
+
+/* Highlights Section */
+.highlights-content {
+  flex: 1;
+  padding: 0.5rem 0;
+}
+
+.highlights-container ul {
+  list-style-type: none;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.highlights-container li {
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.highlights-container li::before {
+  content: '•';
+  color: #9CA3AF;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.highlights-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+
+
+.highlights-title {
+  color: #111827;
+  font-size: 1rem;
+  font-weight: "bold !important";
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+/* Base list item styles */
+.entry-item li,
+.highlights-section li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem; /* A balanced margin between the two previous values */
+  line-height: 1.6;
+  color: #99A1AF;
+}
+
+/* Specific adjustments for entry items if needed */
+.entry-item li {
+  margin-bottom: 1rem;
+}
+
+/* Specific adjustments for highlights if needed */
+.highlights-section li {
+  margin-bottom: 0.5rem;
+}
+
+.highlights-section li:before {
+  content: '•';
+  color: #D4826A;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Header Section */
+.entry-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  text-align: right;
+  width: 100%;
+}
+
+.entry-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.entry-item h3 {
+  font-size: 1.5rem;
+  color: #111827;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.company {
+  font-weight: 500;
+  color: #6b7280;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.duration {
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  background: #f3f4f6;
+  border-radius: 20px;
+  white-space: nowrap;
+  border: 1px solid #e5e7eb;
+  width: fit-content;
+  text-align: right;
+  margin-left: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Divider */
+.entry-divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 1.5rem 0;
+}
+
+/* List Styles */
+.entry-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.entry-item li {
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 1.5rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.entry-item li:last-child {
+  margin-bottom: 0;
+}
+
+.entry-item li::before {
+  content: '■';
+  color: #D4826A;
+  font-size: 0.6rem;
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+}
+
+/* Skills Section */
+.entry-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.entry-skill {
+  padding: 0.5rem 1rem;
+  background: #f3f4f6;
+  color: #374151;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.entry-skill:hover {
+  background: #e7e7e7;
+  border-color: #d1d5db;
+}
+
+/* Links Section */
+.entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.entry-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: #D4826A;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.entry-link:hover {
+  text-decoration: none;
+  color: #D4826A; /* Maintain the same color on hover */
+}
+
+.link-chevron {
+  margin-left: 0.4rem;
+  font-size: 1.1em;
+  transition: transform 0.2s ease;
+  transform: translateY(0.5px);
+  font-weight: bold ;
+}
+
+.entry-link:hover .link-chevron {
+  transform: translateX(4px);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Dark mode overrides */
+.dark .template-container {
+  background-color: #0F0E0C;
+  color: #e2e8f0;
+}
+
+.dark .template-container::before {
+  background: linear-gradient(to bottom, #D4826A, #0F0E0C);
+}
+
+.dark .highlights-title {
+  color: #ffffff;
+}
+
+.dark .entry-item h3 {
+  color: #ffffff;
+}
+
+.dark .company {
+  color: #a0a0a0;
+}
+
+.dark .duration {
+  color: #99A1AF;
+  background: #1B1A18;
+  border: 1px solid #4a4a4a;
+}
+
+.dark .entry-divider {
+  background: #1E2939;
+}
+
+.dark .entry-item li,
+.dark .highlights-section li,
+.dark .highlights-container li {
+  color: #99A1AF;
+}
+
+.dark .highlights-container li::before {
+  color: #99A1AF;
+}
+
+.dark .entry-skill {
+  background: #1a1a1a;
+  color: #99A1AF;
+  border: 1px solid #3a3a3a;
+}
+
+.dark .entry-skill:hover {
+  background: #2d2d2d;
+  border-color: #5a5a5a;
+}

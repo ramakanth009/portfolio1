@@ -1,0 +1,78 @@
+/* Common Section Styles */
+.section-container {
+  max-width: 100%;
+  background-color: #ffffff;
+  color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+}
+
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.section-title-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section-title-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* Template Wrapper */
+.template-wrapper {
+  padding-left: 2rem; /* Increased left padding for the template section */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section-title {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.section-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: #D4826A;
+}
+
+.section-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.2;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin: 0;
+  padding-left: 1.5rem; /* Match title's left padding */
+  font-weight: 400;
+}
+
+/* Dark mode overrides */
+.dark .section-container {
+  background-color: #0F0E0C;
+  color: #e2e8f0;
+}
+
+.dark .section-title {
+  color: #ffffff;
+}
+
+.dark .section-subtitle {
+  color: #a0a0a0;
+}

@@ -1,0 +1,365 @@
+{
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/yourusername",
+      "icon": "FaGithub",
+      "ariaLabel": "GitHub"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/yourusername",
+      "icon": "FaLinkedin",
+      "ariaLabel": "LinkedIn"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:your.email@example.com",
+      "icon": "FaEnvelope",
+      "ariaLabel": "Email"
+    }
+  ],
+  "intro": {
+    "name": "Ramakanth kannuri",
+    "titles": ["Software Developer", "Web Designer", "Problem Solver"],
+    "description": "I'm a passionate developer with expertise in modern web technologies. I love building responsive, user-friendly applications that solve real-world problems.",
+    "availability": "Available for opportunities",
+    "contact": {
+      "email": "your.email@example.com",
+      "subject": "Let's work together"
+    }
+  },
+  "sections": {
+    "work": {
+      "title": "Professional Journey",
+      "subtitle": "A timeline of projects, experiences, and continuous growth",
+      "items": [
+          {
+              "duration": "2023 - Present",
+              "title": "Senior Full Stack Developer",
+              "subtitle": "TechNova Solutions",
+              "highlights": [
+                {
+                  "title": "",
+                  "points": [
+                    "Led a team of 5 developers in building a scalable microservices architecture using Node.js and React",
+                    "Implemented CI/CD pipelines reducing deployment time by 70% and increasing deployment frequency by 5x",
+                    "Designed and developed a real-time analytics dashboard that processed 1M+ events daily"
+                  ]
+                }
+              ],
+          "skills": ["Node.js", "React", "Docker", "Kubernetes", "AWS"],
+          "links": [
+            {
+              "text": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "duration": "2021 - 2023",
+          "title": "Frontend Tech Lead",
+          "subtitle": "Digital Innovations Inc.",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Architected and implemented a component library used across 10+ projects, reducing development time by 40%",
+                "Mentored junior developers and conducted code reviews, improving code quality by 35%",
+                "Optimized web application performance, achieving 95+ Lighthouse scores across all metrics"
+              ]
+            }
+          ],
+          "skills": ["React", "TypeScript", "GraphQL", "Jest", "Webpack"],
+          "links": [
+            {
+              "text": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "duration": "2019 - 2021",
+          "title": "Full Stack Developer",
+          "subtitle": "CloudScale Technologies",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Developed RESTful APIs handling 10,000+ requests per minute with 99.9% uptime",
+                "Implemented automated testing infrastructure reducing production bugs by 60%",
+                "Led the migration from monolithic to microservices architecture"
+              ]
+            }
+          ],
+          "skills": ["Python", "Django", "React", "MongoDB", "AWS"],
+          "links": [
+            {
+              "text": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "duration": "2017 - 2019",
+          "title": "Software Engineer",
+          "subtitle": "CodeCraft Studios",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Built and maintained core features for a SaaS platform with 50,000+ users",
+                "Reduced page load time by 40% through code optimization and lazy loading",
+                "Implemented real-time collaboration features using WebSockets"
+              ]
+            }
+          ],
+          "skills": ["JavaScript", "React", "Node.js", "PostgreSQL", "Redis"],
+          "links": [
+            {
+              "text": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "duration": "2015 - 2017",
+          "title": "Junior Developer",
+          "subtitle": "WebWorks Agency",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Developed responsive websites and web applications for various clients",
+                "Collaborated with designers to implement pixel-perfect UIs",
+                "Maintained and updated existing client websites with new features and improvements"
+              ]
+            }
+          ],
+          "skills": ["HTML5", "CSS3", "jQuery", "PHP", "WordPress"],
+          "links": [
+            {
+              "text": "",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "My Projects",
+      "subtitle": "A collection of my work and contributions",
+      "items": [
+        {
+          "duration": "2025",
+          "title": "Portfolio Website",
+          "subtitle": "Personal Project",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Designed and built a responsive portfolio with React and modern UI patterns",
+                "Implemented dark mode and dynamic content driven by JSON"
+              ]
+            }
+          ],
+          "skills": ["React", "CSS", "react-icons"],
+          "links": [
+            {
+              "text": "View Project",
+              "url": "https://codecraft.example.com"
+            }
+          ]
+        },
+        {
+          "duration": "2024",
+          "title": "TaskFlow Pro",
+          "subtitle": "Productivity App",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Built a full-stack task management application with real-time updates using WebSockets",
+                "Implemented drag-and-drop interface with React DnD and state management with Redux",
+                "Achieved 90% test coverage with Jest and React Testing Library"
+              ]
+            }
+          ],
+          "skills": ["React", "Node.js", "MongoDB", "WebSockets", "Redux"],
+          "links": [
+            {
+              "text": "View Project",
+              "url": "https://codecraft.example.com"
+            }
+          ]
+        },
+        {
+          "duration": "2024",
+          "title": "EcoTrack",
+          "subtitle": "Sustainability Dashboard",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Developed a data visualization dashboard for tracking carbon footprint",
+                "Integrated with multiple environmental APIs to provide real-time sustainability metrics",
+                "Built with TypeScript and D3.js for interactive data visualizations"
+              ]
+            }
+          ],
+          "skills": ["TypeScript", "D3.js", "React", "Node.js", "PostgreSQL"],
+          "links": [
+            {
+              "text": "View Project",
+              "url": "https://codecraft.example.com"
+            }
+          ]
+        },
+        {
+          "duration": "2023",
+          "title": "RecipeAI",
+          "subtitle": "AI-Powered Cooking Assistant",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Created an AI model that generates recipes based on available ingredients",
+                "Developed a mobile-first progressive web app with offline functionality",
+                "Integrated with Firebase for authentication and real-time database"
+              ]
+            }
+          ],
+          "skills": ["Python", "TensorFlow", "React Native", "Firebase"],
+          "links": [
+            {
+              "text": "View Project",
+              "url": "https://codecraft.example.com"
+            }
+          ]
+        },
+        {
+          "duration": "2023",
+          "title": "CodeCollab",
+          "subtitle": "Real-time Code Editor",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Built a collaborative code editor with real-time syncing using Operational Transformation",
+                "Implemented syntax highlighting for 10+ programming languages",
+                "Added video calling feature using WebRTC for pair programming"
+              ]
+            }
+          ],
+          "skills": ["Node.js", "Socket.io", "Monaco Editor", "WebRTC"],
+          "links": [
+            {
+              "text": "View Project",
+              "url": "https://codecraft.example.com"
+            }
+          ]
+        },
+        {
+          "duration": "2022",
+          "title": "HealthTrack 360",
+          "subtitle": "Health & Fitness App",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Developed a cross-platform mobile app for tracking workouts and nutrition",
+                "Integrated with wearables and health devices via Bluetooth LE",
+                "Created custom data visualization for progress tracking"
+              ]
+            }
+          ],
+          "skills": ["React Native", "GraphQL", "MongoDB", "D3.js"],
+          "links": [
+            {
+              "text": "View Project",
+              "url": "https://codecraft.example.com"
+            }
+          ]
+        },
+        {
+          "duration": "2022",
+          "title": "MarketMind",
+          "subtitle": "Stock Market Analyzer",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Built a machine learning model for stock price prediction with 85% accuracy",
+                "Created interactive candlestick charts with real-time data updates",
+                "Implemented user portfolio tracking and alert system"
+              ]
+            }
+          ],
+          "skills": ["Python", "Pandas", "TensorFlow", "React", "WebSocket"],
+          "links": [
+            {
+              "text": "View Project",
+              "url": "https://codecraft.example.com"
+            }
+            
+          ]
+        },
+        {
+          "duration": "2021",
+          "title": "EventFlow",
+          "subtitle": "Event Management Platform",
+          "highlights": [
+            {
+              "title": "",
+              "points": [
+                "Developed a full-stack event management system with ticket sales",
+                "Integrated with Stripe for secure payment processing",
+                "Implemented real-time attendee tracking and analytics"
+              ]
+            }
+          ],
+          "skills": ["Django", "React", "PostgreSQL", "Redis", "Docker"],
+          "links": [
+            {
+              "text": "View Project",
+              "url": "https://codecraft.example.com"
+            }
+            
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "subtitle": "My academic background and qualifications",
+      "items": [
+        {
+          "duration": "2019 - 2023",
+          "title": "B.Sc. in Computer Science",
+          "subtitle": "Your University",
+          "highlights": [
+            {
+              "title": "Relevant Coursework",
+              "points": [
+                "Database Systems, Software Engineering, Data Structures, Operating Systems, Advanced Programming"
+              ]
+            },
+            {
+              "title": "Key Project",
+              "points": [
+                "Full-stack marketplace application with React/TypeScript frontend, Flask backend, and PostgreSQL database with component-based architecture"
+              ]
+            }
+          ],
+          "skills": ["Algorithms", "Web Development", "Databases"],
+          "links": [
+            {
+              "text": "",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
